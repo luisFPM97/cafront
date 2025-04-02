@@ -5,7 +5,7 @@ import './App.css';
 import Footer from './components/Footer';
 import Login from './components/Login';
 import Register from './components/Register';
-import UserDashboard from './components/dashboard/UserDashboard';
+
 import ProtectedRoute from './routes/ProtectedRoute';
 import Navbar from './components/Navbar';
 import ActivosDashboard from './components/activos/ActivosDashboard';
