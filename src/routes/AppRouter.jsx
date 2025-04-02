@@ -17,7 +17,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Login from '../components/Login';
 import Register from '../components/Register';
-import UserDashboard from '../components/dashboard/UserDashboard';
+
 import ProtectedRoute from './ProtectedRoute';
 
 const AppRouter = () => {

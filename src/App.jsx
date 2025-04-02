@@ -11,6 +11,7 @@ import Navbar from './components/Navbar';
 import ActivosDashboard from './components/activos/ActivosDashboard';
 import MantenimientosDashboard from './components/mantenimientos/MantenimientosDashboard';
 import IncidenciasDashboard from './components/incidencias/IncidenciasDashboard';
+import UserDashboard from './components/dashboard/userdashboard';
 
 function App() {
     return (
