@@ -1,0 +1,57 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  
+  text-align: center;
+}
+table{
+  max-width: 90% !important;
+  thead{
+    background-color: rgba(255, 255, 255, 0.87) !important;
+    color: black!important;
+    tr{
+      th{
+        background-color: transparent!important;
+      }
+    }
+  }
+}
+.maincont{
+  display: flex;
+  
+}
+.separate{
+  width: 200px;
+  padding: 20px;
+}
+.routesCont{
+  min-height: 100vh;
+  width: 100%;
+  margin: 30px;
+  background-color: white !important;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}

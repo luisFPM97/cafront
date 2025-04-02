@@ -1,0 +1,116 @@
+.incidencias-dashboard {
+    padding: 20px 20px 100px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.incidencia-form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-group textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+
+.button-group button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-group button[type="submit"] {
+    background-color: #48b400;
+    color: white;
+}
+
+.button-group button[type="button"] {
+    background-color: #6c757d;
+    color: white;
+}
+
+.incidencias-list {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: start;
+    hr{
+        width: 100%;
+    }
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.479) !important;
+    thead{
+        background-color: rgba(212, 212, 212, 0.87) !important;
+        color: black!important;
+        tr{
+          th{
+            background-color: transparent!important;
+            border-right: 1px solid rgb(196, 196, 196);
+                
+          }
+        }
+      }
+    
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid rgb(121, 121, 121);
+    border-right: 1px solid rgb(196, 196, 196);
+}
+
+th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+}
+
+.error-message {
+    color: #dc3545;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f8d7da;
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+    table {
+        display: block;
+        overflow-x: auto;
+    }
+}
