@@ -2,7 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 
-const Navbar = () => {
+const Navbar = ({rol}) => {
+    
     return (
         <nav className="navbar">
             <div className="navbar-content">
@@ -16,6 +17,11 @@ const Navbar = () => {
                     <Link to="/activos" className="nav-link">Activos</Link>
                     <Link to="/mantenimientos" className="nav-link">Mantenimientos</Link>
                     <Link to="/incidencias" className="nav-link">Incidencias</Link>
+                    {
+                        rol === "admin" && (
+                            <Link to="/dashboard" className="nav-link">Usuarios</Link>
+                        )
+                    }
                 </div>
             </div>
         </nav>

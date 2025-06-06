@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import AppRouter from './routes/AppRouter';
 import './App.css';
@@ -14,10 +14,11 @@ import IncidenciasDashboard from './components/incidencias/IncidenciasDashboard'
 import UserDashboard from './components/dashboard/userdashboard';
 
 function App() {
+    
     return (
         <div className="app">
             <div className='maincont'>
-                <Navbar/>
+                <Navbar rol={rol}/>
                 <div className='separate'></div>
                 <div className='routesCont'>
                 <Routes>
