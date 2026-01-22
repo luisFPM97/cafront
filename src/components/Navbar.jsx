@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 
-const Navbar = ({rol}) => {
+const Navbar = () => {
     
     return (
         <nav className="navbar">
@@ -17,11 +17,7 @@ const Navbar = ({rol}) => {
                     <Link to="/activos" className="nav-link">Activos</Link>
                     <Link to="/mantenimientos" className="nav-link">Mantenimientos</Link>
                     <Link to="/incidencias" className="nav-link">Incidencias</Link>
-                    {
-                        rol === "admin" && (
-                            <Link to="/dashboard" className="nav-link">Usuarios</Link>
-                        )
-                    }
+                    
                 </div>
             </div>
         </nav>

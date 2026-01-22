@@ -18,7 +18,7 @@ function App() {
     return (
         <div className="app">
             <div className='maincont'>
-                <Navbar rol={rol}/>
+                <Navbar />
                 <div className='separate'></div>
                 <div className='routesCont'>
                 <Routes>
